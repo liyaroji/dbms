@@ -1,0 +1,31 @@
+/* Add this to your styles.css or merge with above */
+.dashboard-container {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 340px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.dashboard-info p {
+    margin: 0.5rem 0;
+    font-size: 1.05rem;
+}
+
+.dashboard-actions button {
+    margin: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
+    background: #247ba0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dashboard-actions button:hover {
+    background: #17526b;
+}
